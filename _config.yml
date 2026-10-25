@@ -23,6 +23,7 @@ facebook_username:  huxpro
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
+timezone: Asia/Shanghai                # front matter 里不带时区的日期按北京时间解释
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
